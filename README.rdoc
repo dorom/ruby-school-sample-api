@@ -1,0 +1,5 @@
+== Boilerplate for Ruby School
+
+Start developing RESTfull API through TDD starting from here.
+
+All tools are in place.

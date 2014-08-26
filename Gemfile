@@ -1,0 +1,21 @@
+source 'https://rubygems.org'
+
+gem 'rails', '~> 4.1.4'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.0'
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', '~> 0.4.0',      group: :doc
+
+group :development, :test do
+  gem 'rspec', '~> 3.0'
+  gem 'shoulda-matchers'
+
+  gem 'factory_girl', '~> 4.0'
+  gem 'database_cleaner'
+  gem 'ffaker'
+
+  gem 'diff_matcher'
+
+  gem 'jazz_hands'
+  gem 'binding_of_caller'
+end
